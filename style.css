@@ -244,3 +244,43 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+/* ABOUT SECTION */
+
+#whyus {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background-color: #38B6FF;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
